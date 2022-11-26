@@ -13,3 +13,13 @@
    -
    1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz
 """
+if __name__ == '__main__':
+    for i in range(20):
+        if(i+1) % 3 == 0 and (i+1) % 5 == 0:
+            print("FizzBuzz")
+        elif ((i+1) % 3) == 0:
+            print("Fizz")
+        elif ((i+1) % 5) == 0:
+            print("Buzz")
+        else:
+            print(str(i+1))
